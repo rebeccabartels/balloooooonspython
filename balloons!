@@ -1,0 +1,11 @@
+stage.set_background("city")
+sprite = codesters.Sprite("person2")
+sprite.go_to(0, -100)
+
+balloon_size = 100
+
+# sprite = codesters.Circle(x, y, diameter, "color")
+balloon1 = codesters.Circle(-130, 100, balloon_size, "purple")
+balloon2 = codesters.Circle(-50, 125, balloon_size, "purple")
+balloon3 = codesters.Circle(20, 180, balloon_size, "purple")
+balloon4 = codesters.Circle(105, 140, balloon_size, "purple")
